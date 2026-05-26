@@ -52,7 +52,6 @@ The backend architecture is fully operational and publicly reachable over the in
 
 **Live Output API Transaction Response (200 OK)**
 ```json
-JSON
 {
   "amount": 200.0,
   "createdAt": "2026-05-26T11:26:49.689141167Z",
@@ -101,5 +100,5 @@ spring.jpa.hibernate.ddl-auto=update
 3. Compile & Start Application Server
 ```Bash
 ./mvnw clean spring-boot:run
-The server will bind to local endpoint gateway: http://localhost:8080
 ```
+The server will bind to local endpoint gateway: http://localhost:8080
